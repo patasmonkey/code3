@@ -1,0 +1,36 @@
+            <exprStatement lineno="11" file="a.c">
+              <functionCall type="int">
+                <function>
+                  <funcAddr type="P193">printf</funcAddr>
+                </function>
+                <arguments>
+                  <stringConstant>%d</stringConstant>
+                  <Var type="int" scope="local">a</Var>
+                </arguments>
+              </functionCall>
+            </exprStatement>
+
+		<body>
+                    <exprStatement lineno="5" file="a.c">
+                      <functionCall type="int">
+                        <function>
+                          <funcAddr type="P190">scanf</funcAddr>
+                        </function>
+                        <arguments>
+                          <stringConstant>%d %d</stringConstant>
+                          <addrOfExpr type="P188">
+                            <arrayRef type="int">
+                              <arrayAddr type="A16" scope="local">c</arrayAddr>
+                              <Var type="int" scope="local">i</Var>
+                            </arrayRef>
+                          </addrOfExpr>
+                          <addrOfExpr type="P187">
+                            <arrayRef type="int">
+                              <arrayAddr type="A15" scope="local">b</arrayAddr>
+                              <Var type="int" scope="local">i</Var>
+                            </arrayRef>
+                          </addrOfExpr>
+                        </arguments>
+                      </functionCall>
+                    </exprStatement>
+                    <forStatement lineno="6" file="a.c">

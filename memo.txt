@@ -1,0 +1,11 @@
+getchar
+gets
+fgets
+scanf
+fputc
+putc
+putchar
+fputs
+puts
+fprintf
+printf
